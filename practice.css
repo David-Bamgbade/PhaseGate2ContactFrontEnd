@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    border: 5px solid black;
+    width: 60vw;
+    margin:auto;
+    height: 70 vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: inherit;
+}
+
+.flexRadioBtn{
+    display: flex;
+    justify-content: space-between;
+    width: 130;
+    border: 1px solid black;
+}
+
+.lastNameInput{
+    padding: 10px 0px;
+}
+
+.comment{
+    padding: 10px 0px;
+}
+
+.submit{
+    color: white;
+    background: blue;
+    border: none;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.submit:hover{
+    color: blue;
+    background: white;
+    cursor: pointer;
+}
+
+/* .circle{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: 1;
+} */
+
+
